@@ -3,3 +3,29 @@
 Redmine is a flexible project management web application written using Ruby on Rails framework.
 
 More details can be found in the doc directory or on the official website http://www.redmine.org
+
+= Deploying with Cloud 66
+{<img src="http://cdn.cloud66.com/images/easy-deploy.png">}[http://blog.cloud66.com/post/62900887610/introducing-cloud-66-easydeploy]
+
+Deploying and maintaining a Redmine setup through Cloud 66 is extremely easy. 
+Click the badge and follow the instructions below to deploy!
+
+== Deploying on Cloud 66
+Simply follow 7 steps on {building your stack}[https://www.cloud66.com/help/first_stack], sign up for a Sendgrid account and set 
+the environment variables below to have your own fully functioning Redmine installation up and running. 
+
+Note: Setting environment variables is done during step five, before you click 'deploy':
+http://cdn.cloud66.com/images/environment_variables.png
+
+1. SMTP_ADDRESS = your SMTP host address
+2. SMTP_DOMAIN = the domain you are sending emails from
+3. SMTP_USERNAME = your SMTP username
+4. SMTP_PASSWORD = your SMTP password
+5. SMTP_PORT = your SMTP port
+6. HOST = your hostname
+
+Default login details:
+
+Username: admin
+
+Password: admin
